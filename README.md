@@ -33,9 +33,9 @@ alpha,beta,delta,gamma
 ...
 ```
 
-2. Use **run_scDAE.sh** to classify cell types in gene expression dataset based on single-cell RNA sequencing.
+2. Use **"run_scDAE.sh"** to classify cell types in gene expression dataset based on single-cell RNA sequencing.
 
-3. You will get an output **result_for_test_dataset.csv** with classified cell types for test dataset.
+3. You will get an output **"result_for_test_dataset.csv"** with classified cell types for test dataset.
 
 ## Contact
 If you have any question or problem, please send an email to **miniymay AT sookmyung.ac.kr**
