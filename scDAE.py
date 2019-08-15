@@ -191,7 +191,7 @@ for model_num in xrange(repeated_model_num):
 
 	print("\nACCURACY OF THIS MODEL : %.6f" % max_accr)
 
-	np.savetxt("./Classified_result_with_accuracy_of" + "_" + str(max_accr) + "_" + str(n_features) + "_features", max_pred, fmt="%.0f", delimiter=",")
+	np.savetxt("./result_for_test_dataset.csv", max_pred, fmt="%.0f", delimiter=",")
 	max_accr= 0.0
 
 
