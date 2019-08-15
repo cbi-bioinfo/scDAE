@@ -13,7 +13,7 @@ Clone the repository or download source code files and prepare scRNA-seq dataset
 
 1. Edit **"run_scDAE.sh"** file having scRNA-seq dataset files for model training and testing with cell type annotations for each sample. Modify each variable values in the bash file with filename for your own dataset. Each file shoudl contain the header and follow the format described as follows :
 
-- train_X, test_X : File with a matrix or a data frame containing gene expression of features for model training and testing, where each row and column represent **sample** and **gene**, respectively. Example for dataset format is provided below.
+- ```train_X, test_X``` : File with a matrix or a data frame containing gene expression of features for model training and testing, where each row and column represent **sample** and **gene**, respectively. Example for dataset format is provided below.
 
 ```
 A1BG,A1CF,A2M,A2ML1,...,ZZEF1,ZZZ3
@@ -23,7 +23,7 @@ A1BG,A1CF,A2M,A2ML1,...,ZZEF1,ZZZ3
 ...
 ```
 
-- train_Y, test_Y : File with a matrix or a data frame contatining cell type annotation for each sample, where each row represent **sample**. Cell type names used for training and testing should be included and users should label each cell type as 1 and 0 for others in the same order in training dataset to be matched. Example for data format is described below.
+- ```train_Y, test_Y``` : File with a matrix or a data frame contatining cell type annotation for each sample, where each row represent **sample**. Cell type names used for training and testing should be included and users should label each cell type as 1 and 0 for others in the same order in training dataset to be matched. Example for data format is described below.
 
 ```
 alpha,beta,delta,gamma
