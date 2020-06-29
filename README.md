@@ -38,9 +38,12 @@ alpha,beta,delta,gamma
 3. You will get an output **"result_for_test_dataset.csv"** with classified cell types for test dataset.
 
 ## Identification of a new cell subtype
-1. Use **"get_probability_by_softmax.sh"** to output the probabilities for each cell subtype estimated through the softmax function in the classification step from scDAE.
+1. Use **"get_probability_from_scDAE.sh"** to output the probabilities for each cell subtype estimated through the softmax function in the classification step from scDAE.
 
 2. Label the cell "new cell subtype" if the highest probability is lower than 0.95, otherwise classify it as a predicted cell type. 
+
+## Implementation details for other algorithms
+For performance evaluation, since we used same testing dataset as competing methods, parameters showing the best performance for other methods were adopted.
 
 ## Contact
 If you have any question or problem, please send an email to **miniymay AT sookmyung.ac.kr**
