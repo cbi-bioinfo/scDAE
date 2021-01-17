@@ -1,4 +1,4 @@
-# Cell type classification via representation learning based on denoising autoencoder for single-cell RNA sequencing
+# Cell subtype classification via representation learning based on denoising autoencoder for single-cell RNA sequencing
 scDAE is a DNN model for single cell subtype identification combined with representative feature extraction by multilayered denoising autoencoder. The feature sets were learned by the denoising autoencoder and were further tuned by fully connected layers using a softmax classifier. scDAE can efficiently predict cell type on a well-trained representation learning model, which may help to improve precision of single cell analysis.
 
 ![Figure](https://github.com/cbi-bioinfo/scDAE/blob/master/celltype_classification_v6.png?raw=true)
