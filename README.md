@@ -46,4 +46,4 @@ alpha,beta,delta,gamma
 For performance evaluation, since we used same testing dataset as competing methods, parameters showing the best performance for other methods were adopted.
 
 ## Contact
-If you have any question or problem, please send an email to **miniymay AT sookmyung.ac.kr**
+If you have any question or problem, please send an email to **joungmin AT vt.edu**
